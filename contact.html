@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROJECT</title>
+    <title>CONTACT</title>
+
     <link rel="stylesheet" href="contact.css"> 
-     <link rel="stylesheet" href=
-    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-      
+    <link rel="stylesheet" href=
+        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Global nav + base styles -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -19,20 +21,70 @@
         </label>
         <label class="logo">Aasha</label>
         <ul>  
-            <li><a  class="active" href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="About.html">About</a></li>
             <li><a href="project.html">Project</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <div class="contact">
-    <div class="email"><img src="email.png" alt=""><h4><a href="form.html">aashasrinivasan64@.com</a></h4></div>
-    <div class="email"><img src="git.jfif" alt=""><h4><a href="https://github.com/AASHA-ROMIYA">Git Hub</a></h4></div>
-    <div class="email"><img src="linkein.png" alt=""><h4><a href="https://www.linkedin.com/in/aasha-s-999170250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkeIn</a></h4></div>
-    <div class="watsapp"><img src="watsapp.png" alt=""><h4>9345021450</h4></div>
-    <button>
-       <a href="form.html"> Contact Me</a>
-    </button>
-</div>
-    
-    </html>
+
+    <section class="contact">
+        <h1 class="contact-title">Get in Touch</h1>
+        <p class="contact-subtitle">
+            Feel free to reach out to me for collaboration, opportunities, or just to say hi.
+        </p>
+
+        <div class="contact-list">
+
+            <div class="contact-item">
+                <div class="icon-wrap">
+                    <img src="email.png" alt="Email icon">
+                </div>
+                <div class="text-wrap">
+                    <h4>Email</h4>
+                    <a href="form.html">aashasrinivasan64@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-wrap">
+                    <img src="git.jfif" alt="GitHub icon">
+                </div>
+                <div class="text-wrap">
+                    <h4>GitHub</h4>
+                    <a href="https://github.com/AASHA-ROMIYA" target="_blank">
+                        github.com/AASHA-ROMIYA
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-wrap">
+                    <img src="linkein.png" alt="LinkedIn icon">
+                </div>
+                <div class="text-wrap">
+                    <h4>LinkedIn</h4>
+                    <a href="https://www.linkedin.com/in/aasha-s-999170250?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        View Profile
+                    </a>
+                </div>
+            </div>
+
+            <div class="contact-item">
+                <div class="icon-wrap">
+                    <img src="watsapp.png" alt="WhatsApp icon">
+                </div>
+                <div class="text-wrap">
+                    <h4>WhatsApp</h4>
+                    <span class="plain-text">9345021450</span>
+                </div>
+            </div>
+
+        </div>
+
+        <button class="contact-btn">
+            <a href="form.html">Contact Me</a>
+        </button>
+    </section>
+</body>
+</html>
